@@ -8,4 +8,4 @@ function ChangeSlide(sens) {
    document.getElementById("paysage").src ="../img/" + slide[numero];
 }
 
-setInterval("ChangeSlide(1)", 4000) ;
+setInterval("ChangeSlide(1)", 4000);
