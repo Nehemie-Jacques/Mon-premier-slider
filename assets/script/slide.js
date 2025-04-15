@@ -5,7 +5,7 @@ function ChangeSlide(sens) {
     numero = numero + sens;
     if (numero > slide.length - 1) numero = 0;
     if (numero < 0) numero = slide.length - 1;
-   document.getElementById("paysage").src ="../img/" + slide[numero];
+   document.getElementById("paysage").src ="./assets/img/" + slide[numero];
 }
 
 setInterval("ChangeSlide(1)", 4000);
